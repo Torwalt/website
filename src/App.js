@@ -22,7 +22,7 @@ class Navbar extends Component {
         </div>
         <div class="mx-auto order-0">
           <a class="navbar-brand mx-auto" href="#">
-            My Site
+            Welcome!
           </a>
           <button
             class="navbar-toggler"
@@ -62,7 +62,7 @@ class Navbar extends Component {
 class CVDropDown extends Component {
   render() {
     return (
-      <div className="dropdown">
+      <div className="btn-group dropleft">
         <button
           className="btn dropdown-toggle nav-items"
           type="button"
@@ -100,8 +100,7 @@ class Header extends Component {
       <div>
         <Navbar />
         <div className="text-center">
-          <p>Hi, my name is Alex and welcome to my site!</p>
-          <img src={require("./professional.jpg")} />
+          <img src={require("./view.jpeg")} />
         </div>
       </div>
     );
